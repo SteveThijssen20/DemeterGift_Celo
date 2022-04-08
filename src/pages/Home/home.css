@@ -1,0 +1,66 @@
+@media only screen and (max-width: 500px) {
+    .home-wrapper{
+        align-items: stretch;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100vh;
+        overflow: hidden;
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    .home-row{
+        place-content: center;
+        margin-bottom: 23px;
+        flex-wrap: wrap;
+        margin-top: calc(var(--bs-gutter-y) * -1);
+        margin-left: calc(var(--bs-gutter-x) * -0.5);
+    }
+    .home-img{
+        width: 17rem;
+    }
+    .home-col{
+        width: 17em;
+
+    }
+    .home-connectBTN{
+        height: 3em;
+    }
+    .home.card-body{
+        font-size:1.3em;
+    }
+}
+@media only screen and (min-width: 500px) {
+    .home-wrapper{
+        align-items: stretch;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100vh;
+        overflow: hidden;
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    .home-row{
+        place-content: center;
+        margin-bottom: 23px;
+        flex-wrap: wrap;
+        margin-top: calc(var(--bs-gutter-y) * -1);
+        margin-left: calc(var(--bs-gutter-x) * -0.5);
+    }
+    .home-img{
+        width: 17em;
+    }
+    .home-col{
+        width: 17em;
+
+    }
+    .home-connectBTN{
+        height: 3em;
+    }
+    .home.card-body{
+        font-size:1.3em;
+    }
+}
